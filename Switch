@@ -1,0 +1,25 @@
+package switchcase; 
+import java.util.scanner;
+
+
+
+ class SwitchCase
+ {
+   public static void main(String args[])
+   { 
+     int choice;
+    System.out.println("pick one");
+    Scanner s=new Scanner(System.in);
+    Choice=s.nextInt();
+    switch(Chioce)
+    {
+      case 1:System.out.println("you said hi");
+       break;
+       case 2:System.out.println("you said hey");
+       break;
+       case 3:System.out.println("you said hello");
+       break;
+       default:System.out.println("you said choice");
+    }
+   }
+ }
